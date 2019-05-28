@@ -49,7 +49,7 @@ import './index.css';
        mp.src = ('https:' == document.location.protocol ? 'https://jssdkcdns' : 'http://jssdkcdn') + '.mparticle.com/js/v2/' + apiKey + '/mparticle.js';
        var s = document.getElementsByTagName('script')[0];
        s.parentNode.insertBefore(mp, s);
-   })('fb640f3fdd999d488b6f38ca13a23b79');
+   })('API_KEY');
 /* eslint-enable  */
 
 

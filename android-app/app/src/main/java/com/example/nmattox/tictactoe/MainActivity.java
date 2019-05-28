@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize mParticle
         MParticleOptions options = MParticleOptions.builder(this)
-                .credentials("847521b69530a54fa7058cf9c65a4fea", "UldUYfUO8JC0Ro8Ofdm7hhToh3cr0SSXe3SQeDMGDJtxHPCBhizZnwFA-xr2PB6X")
+                .credentials("API_KEY", "API_SECRET")
                 .environment(MParticle.Environment.Development)
                 .logLevel(MParticle.LogLevel.VERBOSE)
                 .identifyTask(
