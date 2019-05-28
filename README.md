@@ -8,6 +8,11 @@ This app is built in react that can run in a browser or on a native app's webvie
 * NPM
 * NVM (recommended)
 
+## Directories
+
+* *my-app:* React app source code for Tic-Tac-Toe game 
+* *android-app:* Android studio project for webview react app 
+
 ## Instructions
 
 * Open `/my-app/src/index.js` and add web mParticle API key 
@@ -16,4 +21,5 @@ This app is built in react that can run in a browser or on a native app's webvie
 * The React app should start in your default browser - web events should show up in mParticle
 * Next, navigate to `/android-app/app/src/main/java/com/example/nmattox/tictactoe/MainActivity.java` and add the Android mParticle API key and secret 
 * Run the Android build; Android events should show up in mParticle 
+
 
