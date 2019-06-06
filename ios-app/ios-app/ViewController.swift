@@ -16,7 +16,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let url = URL(string: "http://10.0.17.18:3000/")!
+        let url = URL(string: "http://localhost:3000//")!
         
         MParticle.sharedInstance().initializeWKWebView(webView)
         webView.load(URLRequest(url: url))
