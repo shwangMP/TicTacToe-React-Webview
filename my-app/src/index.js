@@ -11,7 +11,7 @@ import './index.css';
         window.mParticle.config.isDevelopmentMode = true;
 
         // TMP configs for iOS 
-        // window.mParticle.config.useNativeSdk = true; 
+        window.mParticle.config.useNativeSdk = true; 
         // window.mParticle.isIOS = true;
 
         window.mParticle.config.rq = [function(){
